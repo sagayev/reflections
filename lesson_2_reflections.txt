@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When you initialize a git with "git init" commands, it doesn't commit for
+	you. If you use "git log" it will say fatal:your current branch 'master' does not have any commits yet.
+	"git status" will show untracked files. I think we sould use "git add" to track them.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+	Staging area gives more flexibility. You can add there and reset from there.
+	Then you can commit once you are done with your staging area.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+	We can use staging area to organize commits per logical changes.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
