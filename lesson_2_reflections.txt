@@ -23,6 +23,12 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Commits from different branches are merged according to their dates. Then on
+	master (if we checkedout there) we see all commits from different branches.
+	Graph shows visualization when a change was made. For example, when a coin was
+	introduced...
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	Automatic merge whenever possible should be chosen. If not we can review andadjust
+	what should be stayed on the conflicted file.
